@@ -1,0 +1,122 @@
+/* Autor: Javier Eulices - 28 de julio de 2025 */
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6d8dac, #9999c5);
+    color: #333;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+ 
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #1a191d;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h1::before {
+    content: "🌮 ";
+}
+
+ 
+h2 {
+    color: #0a0909;
+    font-size: 1.8em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-left: 6px solid #4e2ecb;
+    padding-left: 15px;
+}
+
+ 
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    padding-left: 1em;
+    position: relative;
+}
+
+ul li::before {
+    content: "🔪";
+    position: absolute;
+    left: 0;
+}
+
+ 
+ol {
+    margin-left: 20px;
+    counter-reset: paso;
+}
+
+ol li {
+    counter-increment: paso;
+    margin: 20px 0;
+    padding: 15px 20px;
+    
+    border-left: 5px solid #4e2ecb;
+    border-radius: 6px;
+    position: relative;
+}
+
+ol li::before {
+    content: "Paso " counter(paso) ": ";
+    font-weight: bold;
+    color: #4e2ecb;
+}
+
+ 
+img {
+    display: block;
+    max-width: 100%;
+     float: center;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 6px 18px rgba(53, 12, 12, 0.1);
+}
+
+ */
+p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+ 
+a {
+    display: inline-block;
+    text-align: center;
+    background-color: #4e2ecb;
+    color: rgb(41, 26, 26);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #37249b;
+}
+
