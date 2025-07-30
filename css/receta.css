@@ -10,8 +10,8 @@
  
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #6d8dac, #9999c5);
-    color: #333;
+    background: linear-gradient(to right, #094f91, #2e7bb9);
+    background-color: black;
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
@@ -37,7 +37,7 @@ h2 {
     font-size: 1.8em;
     margin-top: 40px;
     margin-bottom: 15px;
-    border-left: 6px solid #4e2ecb;
+    border-left: 6px solid #1a0669;
     padding-left: 15px;
 }
 
@@ -72,7 +72,7 @@ ol li {
     margin: 20px 0;
     padding: 15px 20px;
     
-    border-left: 5px solid #4e2ecb;
+    border-left: 5px solid #0e0c16;
     border-radius: 6px;
     position: relative;
 }
@@ -80,7 +80,7 @@ ol li {
 ol li::before {
     content: "Paso " counter(paso) ": ";
     font-weight: bold;
-    color: #4e2ecb;
+    color: #100d1b;
 }
 
  
@@ -99,7 +99,7 @@ p {
     font-size: 1.1em;
     text-align: center;
     margin-top: 30px;
-    color: #333;
+    color: #141111;
 }
 
  
